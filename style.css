@@ -62,12 +62,23 @@ color: #fff;
 font-size: 48px;
 }
 .cuadroResultado{
-width: 385px;
-height: 195px;
-background: #FFFFFF;
-box-shadow: 0px 4px 25px rgba(100, 168, 221, 0.23);
-border-radius: 21px;
-display: flex;
-justify-content: center;
-align-items: center;
+    width: 385px;
+    height: 195px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(100, 168, 221, 0.23);
+    border-radius: 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cuadroResultado p{
+    font-size: 14px;
+    line-height: 16px;
+    color: #BBC7D6;
+    padding-bottom: 6px;
+    padding-top: 27px;  
+}
+.cuadroResultado h2{
+
 }
