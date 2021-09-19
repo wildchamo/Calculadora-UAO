@@ -5,6 +5,8 @@
 }
 body{
     background-color: #F6FAFD;
+    display:flex;
+    flex-direction:column;
 }
 .section1{
     padding-left: 29px;
@@ -82,7 +84,17 @@ font-size: 48px;
 .cuadroResultado h2{
     font-size: 72px;
     line-height: 84px;
-    text-align: center;
-    
+    text-align: center; 
     color: #2F4251;
 }
+
+
+@media (min-width: 800px) {
+    body {
+        flex-direction:row;
+        padding:10px 140px;
+    }
+    .section2{
+        flex-direction:row;
+    }
+  }
