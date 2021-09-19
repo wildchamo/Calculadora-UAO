@@ -92,9 +92,15 @@ font-size: 48px;
 @media (min-width: 800px) {
     body {
         flex-direction:row;
+        justify-content:space-around;
         padding:10px 140px;
     }
     .section2{
         flex-direction:row;
+    }
+    .cuadroResultado{
+        padding-left: 40px;
+        margin-left: 27px;
+        align-items: start;
     }
   }
