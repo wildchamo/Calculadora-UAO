@@ -48,6 +48,15 @@ input{
     height: 48px;
     background: #2F4251;
     border-radius: 30px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.inputOperacion div select{
+    background: #2F4251;
+    border:none;
+    color: #fff;
+    font-size: 20px;
 }
 .section2{
     display:flex;
