@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <section class="section1">
         <div class="textoCalculador">
@@ -15,22 +17,28 @@
         </div>
         <div class="inputs">
             <p>Número 1</p>
-            <input type="number">
+            <input type="number" id="valor1">
             <p>Número 2</p>
-            <input type="number">
+            <input type="number" id="valor2">
         </div>
         <div class="inputs inputOperacion">
             <p>Operación</p>
-            <div></div>
+            <div><select name="" id="">
+                    <option value="sumar">Sumar</option>
+                    <option value="restar" selected>Restar</option>
+                    <option value="multiplicar">Multiplicar</option>
+                </select></div>
         </div>
     </section>
     <section class="section2">
-        <button>=</button>
+        <button onclick="imprimir()">=</button>
         <div class="cuadroResultado">
             <p>Resultado</p>
             <h2>50</h2>
         </div>
     </section>
-    
+
+    <script src="main.js"></script>
 </body>
+
 </html>
