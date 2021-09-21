@@ -1,15 +1,11 @@
- let input1=document.getElementById("valor1");
- let valor1=input1.value;
+let input1=document.getElementById("valor1");
+let num1=input1.value;  
+
 let input2=document.getElementById("valor2");
-let valor2=input2.value;
+let num2=input2.value;
+
 let operacion= document.getElementById("inputOperacion");
 let valorOperacion= operacion.value;
-
-
-//let valorvalor =sumar(valor1,valor2)
-//
-
-
 
 function sumar(a,b){
     return a+b;
@@ -30,15 +26,15 @@ function Calcular(valorOperacion){
     let res = 0
 
     if(valorOperacion==="Sumar"){
-        sumar(valor1, valor2);
+        sumar(num1, num2);
     }else if(valorOperacion==="Restar"){
-        restar(valor1, valor2);
+        restar(num1, num2);
     }else if(valorOperacion==="Multiplicar"){
-        multiplicar(valor1,valor2);
+        multiplicar(num1,num2);
     }else{
-        dividir(valor1,valor2)
+        dividir(num1,num2);
     }
-    resultado.innerHTML = "<strong>"+ res + "</strong>";
+    document.getElementById("result").innerHTML = "<strong>"+ res + "</strong>";
 }
 
 function OnClick(){

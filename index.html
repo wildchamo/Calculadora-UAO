@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    < <link rel="stylesheet" href="style.css"> >
 </head>
 
 <body>
@@ -17,29 +17,30 @@
         </div>
         <div class="inputs">
             <p>Número 1</p>
-            <input type="number" id="valor1">
+            <input type="number" id="InputValor1">
             <p>Número 2</p>
-            <input type="number" id="valor2">
+            <input type="number" id="InputValor2" >
         </div>
         <div class="inputs inputOperacion">
             <p>Operación</p>
             <div><select name="" id="inputOperacion">
-                    <option value="sumar">Sumar</option>
-                    <option value="restar" selected>Restar</option>
+                    <option value="sumar" selected>Sumar</option>
+                    <option value="restar" >Restar</option>
                     <option value="multiplicar">Multiplicar</option>
                     <option value="dividir">Dividir</option>
                 </select></div>
         </div>
     </section>
     <section class="section2">
-        <button onclick="imprimir()">=</button>
+        <button onclick="Calcular()">=</button>
         <div class="cuadroResultado">
             <p>Resultado</p>
-            <h2 id="result">50</h2>
+            <h2 id="result"></h2>
         </div>
     </section>
 
-    <script src="main.js"></script>
+    <!-- <script src="main.js"></script> -->
+    <script src="script.js"></script>
 </body>
 
 </html>
